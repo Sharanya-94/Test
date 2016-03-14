@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>sample</display-name>
+  <servlet>  
+    <description></description>  
+    <display-name>Hello</display-name>  
+    <servlet-name>Hello</servlet-name>  
+    <servlet-class>Hello</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>Hello</servlet-name>  
+    <url-pattern>/Hello</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>profileservlet</display-name>  
+    <servlet-name>profileservlet</servlet-name>  
+    <servlet-class>profileservlet</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>profileservlet</servlet-name>  
+    <url-pattern>/profileservlet</url-pattern>  
+  </servlet-mapping>  
+  <servlet>  
+    <description></description>  
+    <display-name>logout</display-name>  
+    <servlet-name>logout</servlet-name>  
+    <servlet-class>logout</servlet-class>  
+  </servlet>  
+  <servlet-mapping>  
+    <servlet-name>logout</servlet-name>  
+    <url-pattern>/logout</url-pattern>  
+  </servlet-mapping>  
+</web-app>
